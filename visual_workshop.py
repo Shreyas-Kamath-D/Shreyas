@@ -21,7 +21,7 @@ instructor_name = st.sidebar.text_input("Ashwini Kumar")
 if name and usn and instructor_name:
     st.markdown(
         f"<h5 style='color: teal;'>Created by:</h5>"
-        f"<p style='color: white;'>{Shreyas Kamath D} (USN: {38})</p>"
+        f"<p style='color: white;'>{name} (USN: {usn})</p>"
         f"<p style='color: white;'>Instructor: {Ashwini}</p>",
         unsafe_allow_html=True
     )
